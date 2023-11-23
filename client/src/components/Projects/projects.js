@@ -18,6 +18,7 @@ const Projects = () => {
                 <img src={Project1} alt ='' className='projectImg'/>
                 <img src={Project2} alt ='' className='projectImg'/>
             </div>
+            <button className='projectBtn'>See More</button>
         </section>
     )
 }
