@@ -1,8 +1,6 @@
 import React from 'react';
 import './contact.css';
-import ghIcon from '../../assets/githubicon.png';
-import liIcon from '../../assets/linkedinicon.png';
-import gmIcon from '../../assets/gmailicon.png';
+
 
 const Contact = () => {
     return (
@@ -22,11 +20,6 @@ const Contact = () => {
                     <input type='email' className='email' placeholder='Your Email'/>
                     <textarea className='msg' name='message' rows='10' placeholder='Your Message'></textarea>
                     <button type='submit' value='Send' className='submitBtn'>Submit</button>
-                    <div className='links'>
-                        <img src={liIcon} alt="LinkedIn" className='link'/>
-                        <img src={ghIcon} alt="GitHub" className='link'/>
-                        <img src={gmIcon} alt="GMail" className='link'/>
-                    </div>
                 </form>
             </div>
         </section>
