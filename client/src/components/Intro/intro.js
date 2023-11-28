@@ -19,7 +19,9 @@ const Intro = () => {
                         <img src={ghIcon} alt="GitHub" className='link'/>
                         {/* <img src={gmIcon} alt="GMail" className='link'/> */}
                     </div>
-                <Link><button className='btn'><img src={downloadicon} alt="Hire" className='hirebtn'/>Download Resume</button></Link>
+                    <a href="file:///C:/Users/Victor%20Dircio/Documents/VictorDircio_Resume.pdf" download="VictorDircioResume">
+                        <button className='btn'>Download Resume</button>
+                    </a>
             </div>
             <img src={portrait} alt="Profile" className='portrait'/>
         </section>
