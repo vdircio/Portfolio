@@ -28,6 +28,7 @@
     width: 100vw;
     max-width: 65rem;
     flex-wrap: wrap;
+    margin-bottom: 4rem;
 }
 
 .projectImg {

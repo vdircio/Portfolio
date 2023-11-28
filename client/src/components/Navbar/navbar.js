@@ -19,6 +19,12 @@ const Navbar = () => {
                 document.getElementById('contact').scrollIntoView({behavior: 'smooth'});
             }}>            
                 Contact Me
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </button>
             
             {/* <img src={menu} alt="Menu" className='mobileMenu' onClick={()=>setShowMenu(!showMenu)}/>

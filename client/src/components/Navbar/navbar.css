@@ -43,12 +43,30 @@
     width: 10rem;
 }
 
-.desktopMenuImg {
-    object-fit: cover;
-    height: 1rem;
-    width: 1rem;
-    margin: 1rem;
-    
+/* .a span {
+    position:relative;
+    display: block;
+    background: gold;
+}
+
+.a span:nth-child(1) {
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.a:hover span:nth-child(1) {
+    transform: scaleX(1);
+} */
+
+.desktopMenuBtn:hover {
+    border-bottom: 3px solid gold;
+    padding-bottom: -1rem;
+    transform: .5s;
+    cursor: pointer;
 }
 
 .active {
