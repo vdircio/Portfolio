@@ -8,7 +8,7 @@ import DatabaseDesign from '../../assets/server.png'
 const Skills = () => {
     return (
         <section id = 'skills'>
-            <span className="skillTitle"> What I do</span>
+            <span className="skillTitle">What I do</span>
             <span className="skillDesc">I am a highly skilled and passionate coder with a focus on creating visually appealing and user-friendly interfaces. With a strong foundation in design and a keen eye for detail, I bring a unique blend of creativity and technical expertise to my projects. Proficient in HTML, CSS, and JavaScript, I also command a versatile skill set that includes proficiency in Python, SQL, Java, and C++. My commitment to crafting seamless digital experiences reflects not only my technical proficiency but also my dedication to delivering high-quality solutions.</span>
             <div className="skillBars">
                 <div className="skillBar">

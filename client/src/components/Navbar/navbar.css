@@ -16,8 +16,9 @@
 .logo{
     width: 5rem;
     object-fit: cover;
-    height: 3rem;
-    width: 4rem;
+    /* height: 2.5rem; */
+    width: 3rem;
+    margin-top: .08rem;
 }
 
 .desktopMenuListItem {
@@ -87,4 +88,31 @@
     min-width: 15rem;
     background: rgb(40,40,40);
     border-radius: 1rem;
+}
+
+.mobMenu {
+    width: 3rem;
+    display: none;
+    object-fit: cover;
+}
+
+.listItem {
+    color: white;
+    padding: .5rem 3rem;
+    background: rgb(38, 38, 38);
+}
+
+@media screen and (max-width:720px){
+    .navbar {
+        margin-bottom: -2.5rem;
+    }
+    .mobMenu {
+        display: flex;
+    }
+    .desktopMenu {
+        display: none;
+    }
+    .desktopMenuBtn {
+        display: none;
+    }
 }

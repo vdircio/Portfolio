@@ -8,6 +8,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-top: 3rem;
 }
 
 .skillTitle {
@@ -21,7 +22,6 @@
     font-weight: 300;
     font-size: 1rem;
     max-width: 60rem;
-    padding: 1rem 2rem;
 }
 
 .skillBars {
