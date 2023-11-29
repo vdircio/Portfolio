@@ -6,14 +6,16 @@ const Contact = () => {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-
-        emailjs.sendForm('service_qckijgt', 'template_rxa7r4q', form.current, 'IArU7EoHyjZaQbdsw08Px')
+    
+        emailjs.sendForm('service_yd3289s', 'template_rxa7r4q', form.current, '4caw9jCEd5l8OUjpU')
             .then((result) => {
                 console.log(result.text);
+                e.target.reset();
+                alert('Email sent!');
             }, (error) => {
-                console.log((error.text));
+                console.log(error.text);
             });
-        };
+    };
     return (
         <section id='contactPage'>
             <div id='experience'>
@@ -26,10 +28,10 @@ const Contact = () => {
                 <h1 className='contactPageTitle'>Contact Me</h1>
                 <span className='contactDesc'> Please fill out the form below to discuss any work opportunities.</span>
                 <form className='contactForm' ref={form} onSubmit={sendEmail}>
-                    <input type='text' className='name' placeholder='Your Name' name='your_name'/>
-                    <input type='email' className='email' placeholder='Your Email' name='your_email'/>
-                    <textarea className='msg' name='message' rows='10' placeholder='Your Message' ></textarea>
-                    <button type='submit' value='Send' className='submitBtn'>Submit</button>
+                    <input type='text' className='name' placeholder='Your Name' name="user_name"/>
+                    <input type='email' className='email' placeholder='Your Email' name="user_email"/>
+                    <textarea className='msg' name="message" rows='7' placeholder='Your Message' ></textarea>
+                    <button type="submit" value="Send" className='submitBtn'>Submit</button>
                 </form>
             </div>
         </section>
