@@ -13,7 +13,7 @@ const Intro = () => {
             <div className='introContent'>
                 <span className='hello'>Hello,</span>
                 <span className='introText'>I'm <span className='introName'>Victor</span> <br/> Aspiring Developer</span>
-                <p className='introPara'>I am a student at the University of Illinois Urbana-Champaign pursuing <br/>a Bachelors in Mathematics and a minor in Computer Science</p>
+                <p className='introPara'>I am a student at the University of Illinois <br/> Urbana-Champaign pursuing a Bachelors in Mathematics <br/> and a minor in Computer Science</p>
                 <div className='links'>
                     <div className='introIcons'>
                         <a href='https://www.linkedin.com/in/victor-dircio-53205721b/' target='.blank'>
