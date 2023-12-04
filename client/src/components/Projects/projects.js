@@ -10,21 +10,59 @@ const Projects = () => {
         <section id="projects">
             <h2 className='projectsTitle'>My Portfolio</h2>
             <span className='projectsDesc'>Dive into my portfolio—a collection of projects where creativity meets precision. From sleek designs to robust systems, each project is a testament to passion and innovation.</span>
-            <div className='projectImgs'>
-                <a href="https://github.com/Ishan2K1/FarmersMarket" target="_blank" rel="noopener noreferrer">
-                    <img src={Project1} alt ='' className='projectImg'/>    
-                </a>
-                <a href="https://github.com/cs411-alawini/sp23-cs411-team085-VASH" target="_blank" rel="noopener noreferrer">
-                    <img src={Project2} alt ='' className='projectImg'/>
-                </a>
-                <a href="https://github.com/ATLAS-Illinois/atlasvr-games/tree/Paintball_vdirci2" target="_blank" rel="noopener noreferrer">
-                    <img src={Project3} alt ='' className='projectImg'/>
-                </a>
-                <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
-                    <img src={Project4} alt ='' className='projectImg'/>
-                </a>
+
+            <div className='cardContainer'>
+                <img src={Project1} alt ='' className='projectImg'/>
+                <div className='cardDesc'>
+                    <h3 className='projectTitle'>Fresh Finds</h3>
+                    <p className='projectDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                    <div className='software'>
+                        <p>Java</p>
+                    </div>
+                    <div className='projectLinks'></div>
+                </div>
+                
             </div>
-            {/* <button className='projectBtn'>See More</button> */}
+            <div className='cardContainer'>
+                <img src={Project2} alt ='' className='projectImg'/>
+                <div className='cardDesc'>
+                    <h3 className='projectTitle'>Crime and Health Inspections <br/>in California</h3>
+                    <p className='projectDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                    <div className='software'>
+                        <p>React.js</p>
+                        <p>Flask.js</p>
+                        <p>Python</p>
+                        <p>MySQL</p>
+                        <p>GCP</p>
+                    </div>
+                    <div className='projectLinks'></div>
+                </div>
+                
+            </div>
+            <div className='cardContainer'>
+                <img src={Project3} alt ='' className='projectImg'/>
+                <div className='cardDesc'>
+                    <h3 className='projectTitle'>Fresh Finds</h3>
+                    <p className='projectDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                    <div className='software'>
+                        <p>JavaScript</p>
+                    </div>
+                    <div className='projectLinks'></div>
+                </div>
+                
+            </div>
+            <div className='cardContainer'>
+                <img src={Project4} alt ='' className='projectImg'/>
+                <div className='cardDesc'>
+                    <h3 className='projectTitle'>Fresh Finds</h3>
+                    <p className='projectDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                    <div className='software'>
+                        <p></p>
+                    </div>
+                    <div className='projectLinks'></div>
+                </div>
+                
+            </div>
         </section>
     )
 }
