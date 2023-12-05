@@ -4,6 +4,8 @@ import Project1 from '../../assets/farmersmarket.jpg';
 import Project2 from '../../assets/crime.jpg';
 import Project3 from '../../assets/shoebot.png';
 import Project4 from '../../assets/vr.jpg';
+import github from '../../assets/gh.png';
+import newTab from '../../assets/newtab.png';
 
 const Projects = () => {
     return (
@@ -19,7 +21,15 @@ const Projects = () => {
                     <div className='software'>
                         <p>Java</p>
                     </div>
-                    <div className='projectLinks'></div>
+                    <div className='codeLinks'>
+                        <a href='https://github.com/Ishan2K1/FarmersMarket' target='.blank'>
+                            <p>Code</p>
+                            <img src={github} alt="project1" className='code'/>
+                        </a>
+                        <a href='' target='.blank'>
+                            <p>LiveDemo</p><img src={newTab} alt="project1" className='code'/>
+                        </a>
+                    </div>
                 </div>
                 
             </div>
@@ -35,31 +45,58 @@ const Projects = () => {
                         <p>MySQL</p>
                         <p>GCP</p>
                     </div>
-                    <div className='projectLinks'></div>
+                    <div className='codeLinks'>
+                        <a href='https://github.com/cs411-alawini/sp23-cs411-team085-VASH' target='.blank'>
+                            <p>Code</p>
+                            <img src={github} alt="project1" className='code'/>
+                        </a>
+                        <a href='' target='.blank'>
+                            <p>LiveDemo</p><img src={newTab} alt="project1" className='code'/>
+                        </a>
+                    </div>
                 </div>
                 
             </div>
             <div className='cardContainer'>
                 <img src={Project3} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
-                    <h3 className='projectTitle'>Fresh Finds</h3>
+                    <h3 className='projectTitle'>Shoe Finder</h3>
                     <p className='projectDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
                     <div className='software'>
                         <p>JavaScript</p>
                     </div>
                     <div className='projectLinks'></div>
+                    <div className='codeLinks'>
+                        <a href='https://www.linkedin.com/in/victor-dircio-53205721b/' target='.blank'>
+                            <p>Code</p>
+                            <img src={github} alt="project1" className='code'/>
+                        </a>
+                        <a href='https://www.linkedin.com/in/victor-dircio-53205721b/' target='.blank'>
+                            <p>LiveDemo</p><img src={newTab} alt="project1" className='code'/>
+                        </a>
+                    </div>
                 </div>
                 
             </div>
             <div className='cardContainer'>
                 <img src={Project4} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
-                    <h3 className='projectTitle'>Fresh Finds</h3>
+                    <h3 className='projectTitle'>ATLAS VR</h3>
                     <p className='projectDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
                     <div className='software'>
-                        <p></p>
+                        <p>C#</p>
+                        <p>Unity 3D</p>
                     </div>
                     <div className='projectLinks'></div>
+                    <div className='codeLinks'>
+                        <a href='' target='.blank'>
+                            <p>Code</p>
+                            <img src={github} alt="project1" className='code'/>
+                        </a>
+                        <a href='' target='.blank'>
+                            <p>LiveDemo</p><img src={newTab} alt="project1" className='code'/>
+                        </a>
+                    </div>
                 </div>
                 
             </div>

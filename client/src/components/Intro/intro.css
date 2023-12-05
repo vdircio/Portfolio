@@ -63,7 +63,7 @@
 }
 
 p {
-    padding-top: .5rem;
+    padding-top: .1rem;
     font-size: medium;
     font-weight: 300;
 }
@@ -148,7 +148,7 @@ p {
     flex-direction: column;
 }
 
-.link {
+.introLink {
     object-fit: cover;
     height: 3rem;
     width: 3rem;

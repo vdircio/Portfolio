@@ -17,10 +17,10 @@ const Intro = () => {
                 <div className='links'>
                     <div className='introIcons'>
                         <a href='https://www.linkedin.com/in/victor-dircio-53205721b/' target='.blank'>
-                            <img src={liIcon} alt="LinkedIn" className='link'/>
+                            <img src={liIcon} alt="LinkedIn" className='introLink'/>
                         </a>
                         <a href='https://github.com/vdircio' target='.blank' rel="noopener noreferrer">
-                            <img src={ghIcon} alt="GitHub" className='link'/>
+                            <img src={ghIcon} alt="GitHub" className='introLink'/>
                         </a>
                         {/* <img src={gmIcon} alt="GMail" className='link'/> */}
                     </div>
