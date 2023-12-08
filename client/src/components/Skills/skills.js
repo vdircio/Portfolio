@@ -3,7 +3,8 @@ import './skills.css';
 import UIDesign from '../../assets/ui-design.png';
 import WebDesign from '../../assets/web-design.png';
 import AppDesign from '../../assets/app-design.png';
-import DatabaseDesign from '../../assets/server.png'
+import DatabaseDesign from '../../assets/server.png';
+import AOS from 'aos';
 
 const Skills = () => {
     return (

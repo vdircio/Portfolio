@@ -5,6 +5,7 @@ import Skills from './components/Skills/skills';
 import Projects from './components/Projects/projects';
 import Contact from './components/Contact/contact';
 import Footer from './components/Footer/footer';
+import AOS from 'aos';
 
 function App() {
   const [data, setData] = useState([{}])

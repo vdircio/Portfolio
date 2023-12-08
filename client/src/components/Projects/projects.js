@@ -6,6 +6,7 @@ import Project3 from '../../assets/shoebot.png';
 import Project4 from '../../assets/vr.jpg';
 import github from '../../assets/gh.png';
 import newTab from '../../assets/newtab.png';
+import AOS from 'aos';
 
 const Projects = () => {
     return (

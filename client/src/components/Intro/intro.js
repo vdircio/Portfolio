@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from "react";
 import './intro.css';
 import portrait from '../../assets/vicpic.png';
 import ghIcon from '../../assets/ghicon.png';
@@ -6,12 +6,16 @@ import liIcon from '../../assets/liicon.png';
 // import gmIcon from '../../assets/gmailicon.png';
 import {Link} from 'react-scroll';
 import resume from '../../assets/VictorDircio_Resume.pdf';
+import AOS from 'aos';
 
 const Intro = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000});
+      }, []);
     return (
         <section id='intro'> 
-            <div className='introContent'>
-                <span className='hello'>Hello,</span>
+            <div className='introContent' >
+                <span className='hello' data-aos="fade-right">Hello,</span>
                 <span className='introText'>I'm <span className='introName'>Victor</span> <br/> Aspiring Developer</span>
                 <p className='introPara'>I am a student at the University of Illinois <br/> Urbana-Champaign pursuing a Bachelors in Mathematics <br/> and a minor in Computer Science</p>
                 <div className='links'>
@@ -36,16 +40,6 @@ const Intro = () => {
                         </a>
                     </div>
                 </div>        
-                    {/* <a href= {resume} download="VictorDircioResume" className='mainbtn'>
-                        <button className='btn'>Download Resume</button>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a> */}
-                    
             </div>
             <img src={portrait} alt="Profile" className='portrait'/>
         </section>
