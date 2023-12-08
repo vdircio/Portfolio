@@ -81,6 +81,7 @@ h3 {
     box-shadow: 2px 2px 8px #202020;
     font-weight: bold;
     margin: .2rem;
+    font-size: .8rem;
 }
 
 @media screen and (max-width:888px) {
@@ -89,7 +90,7 @@ h3 {
         margin-left: 2rem;
     }
     .software > p {
-        font-size: .8rem;
+        font-size: .7rem;
         margin-left: 0;
         margin-right: 0;
     }
@@ -103,23 +104,17 @@ h3 {
 
 @media screen and (max-width:750px) {
     .software > p {
-        font-size: .7rem;
+        font-size: .53rem;
         margin-left: 0;
         margin-right: 0;
     }
-}
-@media screen and (max-width:650px) {
-    .software > p {
-        font-size: .62rem;
-        margin-left: 0;
-        margin-right: 0;
-    }
-    .cardContainer {
-        height: 32rem;
+    .cardDesc > p {
+        font-size: .8rem;
+        margin-left: 1rem;
     }
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:700px) {
     .cardContainer {
         flex-direction: column;
         height: 36rem;
@@ -143,7 +138,7 @@ h3 {
     }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 701px) {
     .cardContainer:nth-child(even) {
     
         flex-direction: row-reverse; /* Reverse the layout for even cardContainers */
