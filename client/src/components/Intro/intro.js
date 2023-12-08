@@ -14,8 +14,8 @@ const Intro = () => {
       }, []);
     return (
         <section id='intro'> 
-            <div className='introContent' >
-                <span className='hello' data-aos="fade-right">Hello,</span>
+            <div className='introContent' data-aos="flip-right">
+                <span className='hello' >Hello,</span>
                 <span className='introText'>I'm <span className='introName'>Victor</span> <br/> Aspiring Developer</span>
                 <p className='introPara'>I am a student at the University of Illinois <br/> Urbana-Champaign pursuing a Bachelors in Mathematics <br/> and a minor in Computer Science</p>
                 <div className='links'>
