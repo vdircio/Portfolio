@@ -97,8 +97,9 @@ p {
         right: 28vw;
     }
     .introContent {
+        margin-top: -1rem;
         right: -30vw;
-        font-size: 8vw;
+        font-size: 7.5vw;
     }
     .hello {
         font-size: 4.5vw;
@@ -120,7 +121,7 @@ p {
         right: auto;
         left: 50%;
         transform: translateX(5%);
-        font-size: 11vw;
+        font-size: 10vw;
     }
 
     .portrait {
