@@ -142,6 +142,11 @@ p {
         transform: translateX(27%);
     }
 }
+@media screen and (max-width:600px) {
+    .portrait {
+        right: 15vw;
+    }
+}
 
 .links {
     display: flex;

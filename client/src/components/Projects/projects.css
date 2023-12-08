@@ -21,16 +21,6 @@
     font-size: 1rem;
 }
 
-.projectImgs {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    max-width: 65rem;
-    flex-wrap: wrap;
-    margin-bottom: 4rem;
-}
-
 .projectBtn {
     padding: 0.5rem 2.5rem;
     background: white;
@@ -48,7 +38,7 @@
     flex-direction: row;
     margin: 0.5rem;
     background-color: rgb(50, 50, 50);
-    height: 26rem;
+    height: 27rem;
 }
 
 .projectImg {
@@ -56,7 +46,7 @@
     object-fit: cover;
     box-shadow: 0px 10px 8px #202020;
     flex: 1;
-    margin: 0.5rem;
+    margin: 1.2rem;
     max-width: 53%;
 }
 
@@ -124,26 +114,30 @@ h3 {
         margin-left: 0;
         margin-right: 0;
     }
+    .cardContainer {
+        height: 32rem;
+    }
 }
 
 @media screen and (max-width:600px) {
     .cardContainer {
         flex-direction: column;
-        height: 37.5rem;
+        height: 36rem;
     }
     .projectImg, .cardDesc{
         max-width: 100%;
-        max-height: 17.5rem;
+        max-height: 14rem;
+        margin: .8rem;
     }
     .cardDesc > h3 {
         margin-top: .7rem;
     }
     .cardDesc > p {
         margin: 1rem;
-        font-size: .9rem
+        font-size: .75rem
     }
     .software > p {
-        font-size: 1rem;
+        font-size: .78rem;
         margin: .5rem;
         margin-bottom: .2rem;
     }
@@ -151,6 +145,7 @@ h3 {
 
 @media screen and (min-width: 601px) {
     .cardContainer:nth-child(even) {
+    
         flex-direction: row-reverse; /* Reverse the layout for even cardContainers */
     }
     h2 {

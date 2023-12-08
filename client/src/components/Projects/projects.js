@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
 
 const Projects = () => {
     useEffect(() => {
-        AOS.init({duration: 1800});
+        AOS.init({duration: 2300});
       }, []);
     return (
         <section id="projects">
