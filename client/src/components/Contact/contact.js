@@ -1,9 +1,13 @@
-import React, {useRef} from 'react';
+import React, {useRef, useEffect} from 'react';
 import './contact.css';
 import emailjs from '@emailjs/browser';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init({duration: 1300});
+      }, []);
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
@@ -26,13 +30,17 @@ const Contact = () => {
                 </p>
             </div>
             <div id='contact'>
-                <h1 className='contactPageTitle'>Contact Me</h1>
-                <span className='contactDesc'> Please fill out the form below to discuss any work opportunities.</span>
+                <div data-aos="fade-left">
+                    <h1 className='contactPageTitle'>Contact Me</h1>
+                    <span className='contactDesc' > Please fill out the form below to discuss any work opportunities.</span>
+                </div>
                 <form className='contactForm' ref={form} onSubmit={sendEmail}>
+                    <div data-aos="fade-right">
                     <input type='text' className='name' placeholder='Your Name' name="user_name"/>
                     <input type='email' className='email' placeholder='Your Email' name="user_email"/>
-                    <textarea className='msg' name="message" rows='7' placeholder='Your Message' ></textarea>
-                    <button type="submit" value="Send" className='submitBtn'>Submit</button>
+                    <textarea className='msg' name="message" rows='7' placeholder='Your Message'></textarea>
+                    </div>
+                    <button type="submit" value="Send" className='submitBtn' data-aos="fade-up">Submit</button>
                 </form>
             </div>
         </section>

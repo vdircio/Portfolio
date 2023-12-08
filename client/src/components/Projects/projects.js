@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from "react";
 import './projects.css';
 import Project1 from '../../assets/farmersmarket.jpg';
 import Project2 from '../../assets/crime.jpg';
@@ -7,14 +7,21 @@ import Project4 from '../../assets/vr.jpg';
 import github from '../../assets/gh.png';
 import newTab from '../../assets/newtab.png';
 import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Projects = () => {
+    useEffect(() => {
+        AOS.init({duration: 1800});
+      }, []);
     return (
         <section id="projects">
-            <h2 className='projectsTitle'>My Portfolio</h2>
-            <span className='projectsDesc'>Dive into my portfolio—a collection of projects where creativity meets precision. From sleek designs to robust systems, each project is a testament to passion and innovation.</span>
+            <div className="portfolioText" data-aos="zoom-out">
+                <h2 className='projectsTitle'>My Portfolio</h2>
+                <span className='projectsDesc'>Dive into my portfolio—a collection of projects where creativity meets precision. From sleek designs to robust systems, each project is a testament to passion and innovation.</span>
+            </div>
 
-            <div className='cardContainer'>
+
+            <div className='cardContainer' data-aos="zoom-in-right">
                 <img src={Project1} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
                     <h3 className='projectTitle'>Fresh Finds</h3>
@@ -34,7 +41,7 @@ const Projects = () => {
                 </div>
                 
             </div>
-            <div className='cardContainer'>
+            <div className='cardContainer' data-aos="zoom-in-left">
                 <img src={Project2} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
                     <h3 className='projectTitle'>Crime and Health Inspections <br/>in California</h3>
@@ -58,7 +65,7 @@ const Projects = () => {
                 </div>
                 
             </div>
-            <div className='cardContainer'>
+            <div className='cardContainer' data-aos="zoom-in-right">
                 <img src={Project3} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
                     <h3 className='projectTitle'>Shoe Finder</h3>
@@ -79,7 +86,7 @@ const Projects = () => {
                 </div>
                 
             </div>
-            <div className='cardContainer'>
+            <div className='cardContainer' data-aos="zoom-in-left">
                 <img src={Project4} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
                     <h3 className='projectTitle'>ATLAS VR</h3>
