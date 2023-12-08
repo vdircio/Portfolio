@@ -95,6 +95,7 @@ p {
 @media screen and (max-width:840px){
     .portrait {
         right: 28vw;
+        height: 23rem;
     }
     .introContent {
         margin-top: -1rem;
@@ -109,6 +110,9 @@ p {
     .hello {
         font-size: 4.5vw;
         margin-top: 4rem;
+    }
+    .portrait {
+        height: 22rem;
     }
 }
 @media screen and (max-width: 500px) {
@@ -128,6 +132,7 @@ p {
         margin: 0 auto 5rem;
         margin-left: 6rem;
         transform: translateX(20%);
+        height: 21rem;
     }
 
     .introIcons {
