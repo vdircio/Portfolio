@@ -34,7 +34,7 @@ const Projects = () => {
                             <p>Code</p>
                             <img src={github} alt="project1" className='code'/>
                         </a>
-                        <a href='' target='.blank'>
+                        <a href='https://drive.google.com/file/d/1X-sotWji05J8HUP2zN_G0bjcCHqMmOsT/view' target='.blank'>
                             <p>LiveDemo</p><img src={newTab} alt="project1" className='code'/>
                         </a>
                     </div>
