@@ -25,7 +25,7 @@ const Projects = () => {
                 <img src={Project1} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
                     <h3 className='projectTitle'>Fresh Finds</h3>
-                    <p className='projectDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                    <p className='projectDesc'>Fresh Finds is a sleek Android application designed in Android Studio, offering users a seamless and modern interface to explore nearby farmers markets. By eliminating middlemen, the app connects users directly with local vendors, providing an affordable and healthy alternative for those seeking fresh and sustainable food options.</p>
                     <div className='software'>
                         <p>Java</p>
                     </div>
@@ -45,7 +45,7 @@ const Projects = () => {
                 <img src={Project2} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
                     <h3 className='projectTitle'>Crime and Health Inspections <br/>in California</h3>
-                    <p className='projectDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                    <p className='projectDesc'>This comprehensive full-stack website, powered by React for the front end, Python for the backend, and MySQL for data retrieval, enables users to compare crime rates and health inspections across California. Users can actively contribute by submitting and deleting comments on crimes, fostering community engagement. The dynamic map feature reflects real-time updates based on user comments, creating an interactive platform that enhances awareness and community-driven insights into local safety and health standards.</p>
                     <div className='software'>
                         <p>React.js</p>
                         <p>Flask.js</p>
@@ -69,7 +69,7 @@ const Projects = () => {
                 <img src={Project3} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
                     <h3 className='projectTitle'>Shoe Finder</h3>
-                    <p className='projectDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                    <p className='projectDesc'>ShoeFinder is an innovative JavaScript-based application for purchasing shoes from Finish Line utilizing advanced web scraping techniques. This tool, which seamlessly navigates the Finish Line website, streamlines the shoe-buying process, providing users with a quick and efficient way to secure their favorite footwear.</p>
                     <div className='software'>
                         <p>JavaScript</p>
                     </div>
@@ -90,7 +90,7 @@ const Projects = () => {
                 <img src={Project4} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
                     <h3 className='projectTitle'>ATLAS VR</h3>
-                    <p className='projectDesc'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa</p>
+                    <p className='projectDesc'>Atlas VR, a program affiliated with the University of Illinois, is dedicated to offering students a relaxing escape during final exams. Developed in collaboration with a skilled team, the program features a collection of entertaining mini-games created in Unity, with an emphasis on hand recognition using the Meta Oculus. By providing a destressing environment, Atlas VR aims to support students' well-being during the demanding final exam season.</p>
                     <div className='software'>
                         <p>C#</p>
                         <p>Unity 3D</p>

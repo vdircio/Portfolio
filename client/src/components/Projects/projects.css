@@ -60,7 +60,9 @@
 }
 
 .cardDesc > p {
-    margin: 1.5rem;
+    margin: 1.rem;    
+    font-size: .85rem;
+    margin: .5rem;
 }
 
 h3 {
@@ -81,13 +83,13 @@ h3 {
     box-shadow: 2px 2px 8px #202020;
     font-weight: bold;
     margin: .2rem;
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 @media screen and (max-width:888px) {
     .cardDesc > p {
-        font-size: .93rem;
-        margin-left: 2rem;
+        font-size: .85rem;
+        margin: .5rem;
     }
     .software > p {
         font-size: .7rem;
@@ -110,7 +112,7 @@ h3 {
     }
     .cardDesc > p {
         font-size: .8rem;
-        margin-left: 1rem;
+        margin: .6rem;
     }
 }
 
@@ -128,7 +130,7 @@ h3 {
         margin-top: .7rem;
     }
     .cardDesc > p {
-        margin: 1rem;
+        margin: .5rem;
         font-size: .75rem
     }
     .software > p {
