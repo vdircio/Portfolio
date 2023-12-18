@@ -6,7 +6,7 @@ Personal Portfolio is a React-based website designed to showcase my coding journ
 
 ## Demo
 
-Check out a video demo of the portfolio [here](https://drive.google.com/file/d/1X-sotWji05J8HUP2zN_G0bjcCHqMmOsT/view?usp=sharing). The video provides an overview of the features and projects included in the portfolio.
+Check out my portfolio at [victordircio.com](https://victordircio.com/) to explore the features and projects included.
 
 ## Installation
 
