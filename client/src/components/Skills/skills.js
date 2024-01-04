@@ -28,21 +28,21 @@ const Skills = () => {
                 <div className="skillBar" data-aos="flip-right">
                     <img src={WebDesign} alt="WebDesign" className="skillBarImg"/>
                     <div className="skillBarText">
-                        <h2>Web Deisgn</h2>
+                        <h2>Web Design</h2>
                         <p>I bring websites to life, seamlessly merging aesthetics with functionality for engaging online experiences.</p>
                     </div>
                 </div>
                 <div className="skillBar" data-aos="flip-left">
                     <img src={AppDesign} alt="AppDesign" className="skillBarImg"/>
                     <div className="skillBarText">
-                        <h2>App Deisgn</h2>
+                        <h2>App Design</h2>
                         <p>I create immersive app experiences, blending captivating visuals with intuitive functionality.</p>
                     </div>
                 </div>
                 <div className="skillBar" data-aos="flip-right">
                     <img src={DatabaseDesign} alt="DatabaseDesign" className="skillBarImg"/>
                     <div className="skillBarText">
-                        <h2>Database Deisgn</h2>
+                        <h2>Database Design</h2>
                         <p>Proficient in database systems, I excel at crafting efficient designs for seamless data retrieval, ensuring strategic information management.</p>
                     </div>
                 </div>
