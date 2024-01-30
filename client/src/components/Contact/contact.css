@@ -61,3 +61,140 @@
 .submitBtn:hover {
     cursor: pointer;
 }
+
+.experience {
+    width: 22rem;
+    height: 22rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    margin: .5rem;
+    padding-top: 4rem;
+    background-color: transparent;
+    perspective: 1000px;
+}
+
+.expImg {
+    width: 8rem;
+    height: 8rem;
+    border-radius: .7rem;
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+.experiences {
+    border-radius:  1rem;
+    display: flex;
+    flex-direction: row;
+    margin: 4rem;
+    width: 40rem;
+    height: 40rem;
+    padding-bottom: -3rem;
+}
+
+.inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+
+.experience:hover .inner {
+    transform: rotateY(180deg); /* Increase size on hover */
+}
+
+.frontcard, .backcard {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.frontcard {
+    background-color: rgb(50, 50, 50);
+    border-radius: .5rem;
+    color: white;
+}
+
+.backcard {
+    color: white;
+    transform: rotateY(180deg);
+}
+
+.backcard > p {
+    font-size: .7rem;
+    margin: .3rem;
+}
+
+.backcard > h2 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 770px) {
+    .experience {
+        width: 20rem; 
+        height: 20rem;  /* Allow the height to adjust automatically */
+        padding-top: 2rem;  /* Decrease the padding on top */
+    }
+
+    .expImg {
+        width: 8rem;  /* Decrease the width of the image */
+        height: 8rem;  /* Decrease the height of the image */
+        margin-top: 1rem;
+        margin-bottom: 1rem;  /* Decrease the margin between the image and text */
+    }
+
+    .experiences {
+        margin: 2rem;  /* Decrease the margin around the experience cards */
+        height: auto;  /* Allow the height to adjust automatically */
+    }
+}
+
+/* Add other media queries for smaller screen sizes if needed */
+
+
+@media screen and (max-width:650px) {
+    .experience {
+        width: 15rem;  /* Decrease the width for smaller screens */
+        height: 15rem;  /* Allow the height to adjust automatically */
+        padding-top: 1rem;  /* Decrease the padding on top */
+    }
+    .experience > p {
+        font-size: .9rem;
+    }
+
+    .expImg {
+        width: 6.5rem;  /* Decrease the width of the image */
+        height: 6.5rem;  /* Decrease the height of the image */
+        margin-top: 1rem;
+        margin-bottom: 2rem;  /* Decrease the margin between the image and text */
+    }
+
+    .experiences {
+        margin: .2rem;  /* Decrease the margin around the experience cards */
+        height: auto;  /* Allow the height to adjust automatically */
+    }
+}
+
+@media screen and (max-width: 601px) {
+    .experiences {
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+    }
+    .experience {
+        width: 19rem;  /* Decrease the width for smaller screens */
+        height: 19rem;  /* Allow the height to adjust automatically */
+        padding-top: 2rem;  /* Decrease the padding on top */
+    }
+    .expImg {
+        width: 10rem;
+        height: 10rem;
+        border-radius: .7rem;
+        margin-bottom: 0rem;
+    }
+}
