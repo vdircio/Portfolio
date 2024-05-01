@@ -21,6 +21,30 @@ const Projects = () => {
             </div>
 
 
+            <div className='cardContainer' data-aos="zoom-in-left">
+                <img src={Project5} alt ='' className='projectImg'/>
+                <div className='cardDesc'>
+                    <h3 className='projectTitle'>Medi-Finds</h3>
+                    <p className='projectDesc'>Medi-Finds helps pre-med majors by summarizing medical research papers, making it easier to find relevant articles quickly and understand key points without getting lost in dense text.</p>
+                    <div className='software'>
+                        <p>React</p>
+                        <p>Python</p>
+                        <p>Flask</p>
+                        <p>NLTK</p>
+                    </div>
+                    <div className='codeLinks'>
+                        <a href='https://github.com/vdircio/MediFinds' target='.blank'>
+                            <p>Code</p>
+                            <img src={github} alt="project1" className='code'/>
+                        </a>
+                        <a href='http://209.38.130.148:4173/' target='.blank'>
+                            <p>LiveDemo</p><img src={newTab} alt="project1" className='code'/>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+
             <div className='cardContainer' data-aos="zoom-in-right">
                 <img src={Project1} alt ='' className='projectImg'/>
                 <div className='cardDesc'>
