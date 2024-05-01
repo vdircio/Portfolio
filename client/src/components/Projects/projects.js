@@ -4,6 +4,7 @@ import Project1 from '../../assets/farmersmarket.jpg';
 import Project2 from '../../assets/crime.jpg';
 import Project3 from '../../assets/shoebot.png';
 import Project4 from '../../assets/vr.jpg';
+import Project5 from '../../assets/medifindsimage.png'
 import github from '../../assets/gh.png';
 import newTab from '../../assets/newtab.png';
 import AOS from 'aos';
